@@ -1,6 +1,6 @@
 # Quizper AI Chrome Extension
 
-Quizper AI is a Chrome extension designed to assist you with answering homework quiz questions on various online platforms. This extension uses OpenAI's GPT-4 API to provide correct answers and explanations for quiz questions.
+Quizper AI is a Chrome extension designed to assist you with answering homework quiz questions on Canvas. This extension uses OpenAI's GPT-4 API to provide correct answers and explanations for homework quiz questions.
 
 ## Features
 - Automatically identify and highlight the correct answer for homework quiz questions.
@@ -23,8 +23,7 @@ Quizper AI is a Chrome extension designed to assist you with answering homework 
    - Open `content.js` in your preferred text editor.
    - Replace the placeholder `'<YOUR_OPEN_AI_API_KEY>'` with your actual OpenAI API key.
    
-   ```javascript
-   OPEN_AI_API_KEY = '<YOUR_OPEN_AI_API_KEY>'```
+   ```OPEN_AI_API_KEY = '<YOUR_OPEN_AI_API_KEY>'```
 
     - Save the file.
 5. **Open Chrome and navigate to `chrome://extensions/`.**
@@ -37,9 +36,12 @@ Quizper AI is a Chrome extension designed to assist you with answering homework 
 3. **Quizper AI will identify the correct answer and highlight it.**
 4. **Click the "Why?" button next to the highlighted answer to get a brief explanation.**
    
-## Contributing
+### Contributing
 1. **Fork the repository.**
 2. **Create a new branch (git checkout -b feature-branch).**
 3. **Make your changes and commit them (git commit -m 'Add some feature').**
 4. **Push to the branch (git push origin feature-branch).**
 5. **Open a pull request.**
+
+***
+> This extension is powered by AI and the answers provided may not always be correct. Please use it as a supplementary tool and do not fully depend on it for accurate answers.
