@@ -56,7 +56,7 @@ document.querySelectorAll('.question_holder').forEach((element, idx) =>
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': `Bearer ${OPEN_AI_API_KEY}`
           },
           body: JSON.stringify({
             "model": "gpt-4-turbo-preview",
