@@ -20,23 +20,24 @@
 
 .canvasext-why-button
 {
-  background-color: #5a3;
-  color: white;
+  background-color: transparent;
+  color: #290;
   border: none;
   border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+  /* padding: 5px; */
+  /* margin: 5px; */
   cursor: pointer;
   position: absolute;
   right: 0px;
-  top: 20%;
-  /* opacity: 0.3 */
+  /* top: 20%; */
+  opacity: 0.3
 }
 
 .canvasext-why-button:hover
 {
-  background-color: #5a3;
-  color: white;
+  /* background-color: #5a3; */
+  /* color: white; */
+  opacity: 1;
 }
 
 .canvasext-why

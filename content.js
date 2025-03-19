@@ -4,7 +4,7 @@
 // Generate an Open AI API key at https://platform.openai.com/ then replace the placeholder with the key
 
 OPEN_AI_API_KEY = '<YOUR_OPEN_AI_API_KEY>'
-
+MODEL = 'gpt-4o'
 
 
 
@@ -59,7 +59,7 @@ document.querySelectorAll('.question_holder').forEach((element, idx) =>
             'Authorization': `Bearer ${OPEN_AI_API_KEY}`
           },
           body: JSON.stringify({
-            "model": "gpt-4-turbo-preview",
+            "model": MODEL,
             "messages": messages
           })
         })
@@ -90,7 +90,7 @@ document.querySelectorAll('.question_holder').forEach((element, idx) =>
 
                   },
                   body: JSON.stringify({
-                    "model": "gpt-4-turbo-preview",
+                    "model": MODEL,
                     "messages": [
                       {
                         "role": "system",
